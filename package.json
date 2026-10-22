@@ -1,0 +1,10 @@
+{
+  "name": "agent-orchestration-mcp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Codex-led MCP orchestration for DeepSeek Harness workers and visible Gemini CLI sessions",
+  "scripts": {
+    "test": "node --test deepseek-worker/test/*.test.mjs gemini-tui/test/*.test.cjs"
+  },
+  "engines": { "node": ">=22" }
+}

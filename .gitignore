@@ -1,0 +1,9 @@
+**/state/
+**/node_modules/
+**/*host-state.json
+**/.env*
+**/backups/
+*.log
+*.clixml
+*.pem
+*.key
